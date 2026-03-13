@@ -21,8 +21,9 @@ def download_video(video_id):
 
     return f"data/{video_id}.mp4"
 
-
+# ---------------------
 # test phase
+# ---------------------
 if __name__ == "__main__":
-    video_path = download_video("1UgJI6O8T2U")
+    video_path = download_video("k4pbOtw3omo")
     print("Video saved at:", video_path)
