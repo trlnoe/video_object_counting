@@ -1,7 +1,0 @@
-tracker_type: bytetrack
-track_high_thresh: 0.5      # confidence cao → track chắc chắn
-track_low_thresh: 0.1       # confidence thấp → vẫn dùng để re-match
-new_track_thresh: 0.5       # threshold để tạo track MỚI (cao → khó tạo ID mới)
-track_buffer: 60            # nhớ object mất tích trong 120 frame (~4 giây @30fps)
-match_thresh: 0.8           # IoU threshold để ghép track cũ với box mới
-fuse_score: True 
