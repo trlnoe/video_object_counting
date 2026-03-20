@@ -1,6 +1,7 @@
 # CountVid WebApp
 
 A web interface for counting objects in YouTube videos, powered by **CountGD + SAM 2**.
+![CountVid UI](figures/ui.png)
 
 ## Project Structure
 
@@ -15,7 +16,6 @@ video_object_counting/
 ```
 
 ---
-
 ## Part 1 — Setting Up CountVid (One-Time Setup)
 
 ### 1. Clone Repositories
@@ -159,6 +159,9 @@ streamlit run app.py
 ```
 
 ---
+
+## Result Example
+![CountVid Result](figures/res.png)
 
 ## Usage
 
